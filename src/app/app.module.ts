@@ -10,7 +10,7 @@ import{ HttpClientModule } from '@angular/common/http';
 
 
 import 'ag-grid-enterprise';
-import { MyCellComponent } from './components/my-cell/my-cell.component'
+import { MyCellComponent } from './components/my-cell/my-cell.component';
 
 
 @NgModule({

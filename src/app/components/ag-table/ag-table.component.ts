@@ -61,8 +61,17 @@ import { MyCellComponent } from '../my-cell/my-cell.component';
 })
 export class AgTableComponent {
   public columnDefs: ColDef[] = [
-    { field: 'athlete'},
-    { field: 'age'},
+    { field: 'athlete', cellRenderer:MyCellComponent,
+    cellRendererParams: {
+      buttonText:'Name'
+    }},
+
+    
+    { field: 'age', cellRenderer:MyCellComponent,
+    cellRendererParams: {
+      buttonText:'age'
+    }
+  },
     { field: 'country' },
     { field: 'year' },
     { field: 'date'},

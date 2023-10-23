@@ -8,11 +8,17 @@ import { AgTableComponent } from './components/ag-table/ag-table.component';
 import { NavBArComponent } from './components/nav-bar/nav-bar.component';
 import{ HttpClientModule } from '@angular/common/http';
 
+
+import 'ag-grid-enterprise';
+import { MyCellComponent } from './components/my-cell/my-cell.component'
+
+
 @NgModule({
   declarations: [
     AppComponent,
     AgTableComponent,
-    NavBArComponent
+    NavBArComponent,
+    MyCellComponent
   ],
   imports: [
     BrowserModule,

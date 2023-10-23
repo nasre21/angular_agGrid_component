@@ -1,5 +1,12 @@
+<button (click)="clearSelection()">Clear</button>
+
 <ag-grid-angular
+  class="ag-theme-alpine"
+  [rowData]="rowData$ | async"
+  [columnDefs]="colDefs"
+  [defaultColDef]="defaultColDefs"
+  [rowSelection]="'multiple'"
+  style="width: 500px; height: 500px"
+  (cellClicked)="onCellClick($event)"
+></ag-grid-angular>
 
->
-
-</ag-grid-angular>

@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ag_grid_review';
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+// https://thinkster.io/tutorials/fundamentals-of-angular-getting-started/how-to-learn-angular-10x-faster
